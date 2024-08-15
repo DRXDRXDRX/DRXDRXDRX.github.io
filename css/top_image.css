@@ -1,0 +1,16 @@
+/* 移动端适配 */
+/* 移动端 */
+@media screen and (max-width: 1000px) {
+    #page-header {
+        background-size: cover !important;
+        background-position: top !important;    
+    }
+}
+
+/* PC端 */
+@media screen and (min-width: 1000px) {
+    #page-header {
+        background-size: contain !important;
+        background-position: right !important;
+    }
+}
